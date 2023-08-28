@@ -1,0 +1,35 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1711096262170052 -0.15748867901174615 0.972583575739901 4.6018810848764335
+  position 2.618455043584634 2.2712148722606997 1.432638593963396
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 3
+  floorAppearance OsbWood {
+  }
+}
+WoodenBox {
+  translation 1.5 -0.4 0.3
+}
+UR5e {
+  hidden position_0_0 -0.00019083024794468048
+  hidden rotation_1 0 0 -1 0.00028624563171430697
+  hidden position_1_0 0.00011435466249950387
+  hidden rotation_2 0 1 0 1.570967532156607
+  hidden position_2_0 3.1726747928144996e-05
+  hidden rotation_3 0 1 0 4.759029647517832e-05
+  hidden position_3_0 -1.3060832675826362e-05
+  hidden rotation_4 0 1 0 1.5707764088802243
+  hidden position_4_0 8.220722019056758e-07
+  hidden rotation_5 0 0 1 1.2327502894369818e-06
+  hidden position_5_0 -8.228371370933019e-07
+  hidden rotation_6 0 -1 0 1.234550188613433e-06
+  translation 1.5 -0.4 0.6
+  controller "my_controller"
+}
